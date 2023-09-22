@@ -3,17 +3,38 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegistrationApp.Domain", "Domain\RegistrationApp.Domain.csproj", "{C953A1DF-287B-4BD0-B173-E87219E6D12C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegistrationApp.DAL", "RegistrationApp.DAL\RegistrationApp.DAL.csproj", "{BD9C9EC5-6CD6-417A-A96B-6D7E2780A2F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistrationApp.Infrastructure", "Infrastructure\RegistrationApp.Infrastructure.csproj", "{BD50D4B1-C26B-4FC8-9CC9-88D785D107E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegistrationApp.IoC", "RegistrationApp.IoC\RegistrationApp.IoC.csproj", "{7A685363-5C41-41DB-AD70-7DAD73AAA2AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistrationApp.DAL", "RegistrationApp.DAL\RegistrationApp.DAL.csproj", "{BD9C9EC5-6CD6-417A-A96B-6D7E2780A2F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegistrationApp.BL", "RegistrationApp.BL\RegistrationApp.BL.csproj", "{75EA8A10-BD43-45D6-8F52-14EAB35B06A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistrationApp.IoC", "RegistrationApp.IoC\RegistrationApp.IoC.csproj", "{7A685363-5C41-41DB-AD70-7DAD73AAA2AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegistrationApp.Api", "RegistrationApp.Api\RegistrationApp.Api.csproj", "{D2CE6B0F-A681-4533-B5BD-E35024D50AB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistrationApp.BL", "RegistrationApp.BL\RegistrationApp.BL.csproj", "{75EA8A10-BD43-45D6-8F52-14EAB35B06A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegistrationApp.Domain", "RegistrationApp.Domain\RegistrationApp.Domain.csproj", "{FF2EAC5B-FE4A-45D0-AD52-664B9862106D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistrationApp.Api", "RegistrationApp.Api\RegistrationApp.Api.csproj", "{D2CE6B0F-A681-4533-B5BD-E35024D50AB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegistrationApp.Infrastructure", "RegistrationApp.Infrastructure\RegistrationApp.Infrastructure.csproj", "{64654978-730A-4A96-BA5D-2F6394178781}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "RegistrationApp.UI", "RegistrationApp.UI\", "{BC5C6460-561E-4E20-BE2F-16F3EF19B07F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_57384"
+		Debug.AspNetCompiler.PhysicalPath = "RegistrationApp.UI\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57384\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_57384"
+		Release.AspNetCompiler.PhysicalPath = "RegistrationApp.UI\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57384\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "57384"
+		SlnRelativePath = "RegistrationApp.UI\"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,14 +42,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C953A1DF-287B-4BD0-B173-E87219E6D12C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C953A1DF-287B-4BD0-B173-E87219E6D12C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C953A1DF-287B-4BD0-B173-E87219E6D12C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C953A1DF-287B-4BD0-B173-E87219E6D12C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BD50D4B1-C26B-4FC8-9CC9-88D785D107E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BD50D4B1-C26B-4FC8-9CC9-88D785D107E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BD50D4B1-C26B-4FC8-9CC9-88D785D107E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BD50D4B1-C26B-4FC8-9CC9-88D785D107E3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BD9C9EC5-6CD6-417A-A96B-6D7E2780A2F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BD9C9EC5-6CD6-417A-A96B-6D7E2780A2F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD9C9EC5-6CD6-417A-A96B-6D7E2780A2F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +58,18 @@ Global
 		{D2CE6B0F-A681-4533-B5BD-E35024D50AB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2CE6B0F-A681-4533-B5BD-E35024D50AB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2CE6B0F-A681-4533-B5BD-E35024D50AB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF2EAC5B-FE4A-45D0-AD52-664B9862106D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF2EAC5B-FE4A-45D0-AD52-664B9862106D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF2EAC5B-FE4A-45D0-AD52-664B9862106D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF2EAC5B-FE4A-45D0-AD52-664B9862106D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64654978-730A-4A96-BA5D-2F6394178781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64654978-730A-4A96-BA5D-2F6394178781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64654978-730A-4A96-BA5D-2F6394178781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64654978-730A-4A96-BA5D-2F6394178781}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC5C6460-561E-4E20-BE2F-16F3EF19B07F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC5C6460-561E-4E20-BE2F-16F3EF19B07F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC5C6460-561E-4E20-BE2F-16F3EF19B07F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC5C6460-561E-4E20-BE2F-16F3EF19B07F}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
